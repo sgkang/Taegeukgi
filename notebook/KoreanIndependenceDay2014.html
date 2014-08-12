@@ -1,0 +1,130 @@
+
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h4 id="D-day:-15th-Aug.-2014">D-day: 15th Aug. 2014<a class="anchor-link" href="#D-day:-15th-Aug.-2014">&#182;</a></h4>
+</div>
+</div>
+</div>
+
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Game-plan">Game plan<a class="anchor-link" href="#Game-plan">&#182;</a></h2>
+</div>
+</div>
+</div>
+
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>15th of August is Korean independence day, which Korean was liberated from Japan. Korea had been a colony of Japan for 35 years (29 Aug. 1910-15th Aug. 1945). Shamely, although I am a Korean, We recognized that we do not know how to draw Korean national flag. Definitely, our identity is Korean and we are proud of this fact. In order to remind myself and surrounding me. We would like to write an small module, which generates Korean national flag, which is called &quot;Taegeukgi&quot;. In addition, we are going to write an webpage, which explains the meaning of <em>Taegeukgi</em>.</p>
+On top of that, in order to add some fun points, we are going to do an interesting performance. For this performance we do following thigngs:
+<ul>
+    <li>
+At 8:30 AM on Downtown Vacouver (the place can be changed), we get on the bus with <em>Taegeukgi</em>
+</li>
+    <li>
+Then we give &quot;three cheers of the Korean Independence the public&quot;, <em>loudly and confidently</em>.
+</li>
+    <li>
+We are going to take a video and put it on this blog.
+</li>
+    <li>
+Actually, my girl friend jenny is supposed to kiss me, but I am not sure whether she can make it or not.
+</li>
+<ul>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Specifications-of-Taegeukgi">Specifications of <em>Taegeukgi</em><a class="anchor-link" href="#Specifications-of-Taegeukgi">&#182;</a></h2>
+</div>
+</div>
+</div>
+
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><img src="http://cfile7.uf.tistory.com/image/186765484E8A5E73164BBF"></img></p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+    <li>
+Note: this information is taken from: <a href="http://mpva.tistory.com/1400"> this blog </a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Generating-figure-of-Taegeukgi">Generating figure of <em>Taegeukgi</em><a class="anchor-link" href="#Generating-figure-of-Taegeukgi">&#182;</a></h2>
+</div>
+</div>
+</div>
+
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="kn">import</span> <span class="nn">sys</span>
+<span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s">&quot;../taegeukgi/&quot;</span><span class="p">)</span>
+<span class="kn">import</span> <span class="nn">taegeukgi</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">wdith</span> <span class="o">=</span> <span class="mf">100.</span>
+<span class="n">genfig</span> <span class="o">=</span> <span class="n">taegeukgi</span><span class="o">.</span><span class="n">Taegeukgi</span><span class="p">(</span><span class="n">wdith</span><span class="p">)</span>
+<span class="n">genfig</span><span class="o">.</span><span class="n">run</span><span class="p">()</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><img src = 'Taegeukgi.png'></img></p>
+</div>
+</div>
+</div>
